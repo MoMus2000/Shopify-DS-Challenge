@@ -7,8 +7,19 @@
 The calculation is being made in a very naive way. There are outlier values in the data that are driving the mean value of the order because of both the order amount and the number of items ordered. A better way is to look closely at the outlier shops and determine for each shop what the reason is for their high value and act accordingly.
 
 ### What metric would you report for this dataset?
-### What is its value?
 
+It would make sense to use the pandas describe function. It provides the mean and the values for the percentiles (25%, 50% and 75%). 
+
+### What is its value?
+metric     order_amount Price_of_one
+      
+mean       300.155823	150.400163
+
+25%        163.000000	132.000000
+
+50%	       284.000000	153.000000
+
+75%	       386.500000	166.000000
 
 ## SQL Questions
 ### How many orders were shipped by Speedy Express in total?
