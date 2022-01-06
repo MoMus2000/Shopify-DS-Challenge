@@ -3,6 +3,9 @@
 ## Question 1
 
 ### Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+
+The calculation is being made in a very naive way. There are outlier values in the data that are driving the mean value of the order because of both the order amount and the number of items ordered. A better way is to look closely at the outlier shops and determine for each shop what the reason is for their high value and act accordingly.
+
 ### What metric would you report for this dataset?
 ### What is its value?
 
