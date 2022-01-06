@@ -1,5 +1,12 @@
 # Shopify-DS-Challenge-2022
 
+## Question 1
+
+### Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+### What metric would you report for this dataset?
+### What is its value?
+
+
 ## SQL Questions
 ### How many orders were shipped by Speedy Express in total?
 
@@ -19,5 +26,5 @@
 
 ### Answer: Boston Crab Meat
 
-## Contributor(s)
+## Contributor
 - Mustafa Muhammad 
